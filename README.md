@@ -1,38 +1,17 @@
-<p align="center"><img src="https://i.imgur.com/3UKgyH7.png"></p>
+# 롤 팀 세팅 프로젝트
 
-## Usage
+### 설치
+```shell
+git clone https://github.com/JJangseong/lol-term-setting.git
+cd lol-term-setting
 
-### Create an App
+# 패키지 다운로드
+npm i
+# npm 또는 yarn
+yarn
 
-```
-# with npm
-$ npm init nextron-app my-app --example with-typescript-emotion
-
-# with yarn
-$ yarn create nextron-app my-app --example with-typescript-emotion
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-typescript-emotion
-```
-
-### Install Dependencies
-
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
-
-### Use it
-
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
-
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+#개발 모드 시작
+npm run dev
+# 또는
+yarn dev
 ```
