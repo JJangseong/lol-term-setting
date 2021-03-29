@@ -16,7 +16,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
   },
   "exclude": [
     "node_modules",

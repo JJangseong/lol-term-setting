@@ -1,29 +1,29 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import { BasicCard } from '../components/BasicCard';
-import { TitleCard } from '../components/TitleCard';
-import { HoverableCard } from '../components/HoverableCard';
+import React from "react"
+import Head from "next/head"
+import Link from "next/link"
+import { BasicCard } from "../components/BasicCard"
+import { TitleCard } from "../components/TitleCard"
+import { HoverableCard } from "../components/HoverableCard"
 
 const Home = () => {
-  return (
-    <React.Fragment>
-      <Head>
-        <title>Home - Nextron (with-typescript-emotion)</title>
-      </Head>
-      <div>
-        <TitleCard>Nextron with Emotion</TitleCard>
-        <BasicCard>
-          <Link href="/next">
-            <a>Go to next page</a>
-          </Link>
-        </BasicCard>
-        <HoverableCard>
-          With <code>:hover</code>.
-        </HoverableCard>
-      </div>
-    </React.Fragment>
-  );
-};
+	return (
+		<>
+			<Head>
+				<title>Home - Nextron (with-typescript-emotion)</title>
+			</Head>
+			<div>
+				<TitleCard>Nextron with Emotion</TitleCard>
+				<BasicCard>
+					<Link href="/next">
+						<a>Go to next page</a>
+					</Link>
+				</BasicCard>
+				<HoverableCard>
+					With <code>:hover</code>.
+				</HoverableCard>
+			</div>
+		</>
+	)
+}
 
-export default Home;
+export default Home
